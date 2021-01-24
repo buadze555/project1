@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="header">
+  	
      <div class="inner_header">
      	 
          <div class="navigation1">
@@ -39,6 +40,7 @@
 
 
          </ul>
+           <div class="clear"></div>
          
        </div> 
       
@@ -46,12 +48,25 @@
 
          <body>
 			    <!-- section1 -->
+              <div class="header2">
+              	<a href="page-2.html"> <img class="top_title" src="img/topbr.png" alt="top brends"> </a>
+
+
+              </div>
+
+
+
+
+
+
+
+			    <!-- <section2 -->
 			    <div class="big_container">
+			    	<div class="title" ><h1 >BURGER BARS</h1></div>
 			        <div class="container1">
 			            
-			            <div class="box" id="box1"> <img class="post-image" src="img/bbar.png"  alt="bbar"></div>
+			           <div class="box" id="box1"> <img class="post-image" src="img/bbar.png"  alt="bbar"></div>
 			            <p class="text" id="id1">BURGER BAR</p>
-
 
 			            <button id="button" class="button" type="button" onClick="clickME1()">vote</button>
 			            <div class="result"><p> <a id="clicks1">0</a></p></div>
@@ -60,24 +75,25 @@
 					        clicks1 += 1;
 					        document.getElementById("clicks1").innerHTML = clicks1;
 					 }   </script>
+                       <div class="clear"></div>
+			         </div>
 
 
 
-			        </div>
 			        <div class="container2">
 			            
-			            <div class="box" id="box2"><img class="post-image" src="img/mc.png"  alt="bbar"></div>
-			            <p class="text" id="id2">MC DONALDS</p>
-			            <button id="button2" class="button" type="button" onClick="clickME2()">vote</button>
-			            <div class="result2"><p> <a id="clicks2">0</a></p></div>
-			             <script type="text/javascript">  var clicks2 = 0;
-					       function clickME2() {
-					        clicks2 += 1;
-					        document.getElementById("clicks2").innerHTML = clicks2;
-					 }   </script>
-
+				        <div class="box" id="box2"><img class="post-image" src="img/mc.png"  alt="bbar"></div>
+				            <p class="text" id="id2">MC DONALDS</p>
+				            <button id="button2" class="button" type="button" onClick="clickME2()">vote</button>
+				            <div class="result2"><p> <a id="clicks2">0</a></p></div>
+				             <script type="text/javascript">  var clicks2 = 0;
+						       function clickME2() {
+						        clicks2 += 1;
+						        document.getElementById("clicks2").innerHTML = clicks2;
+						 }   </script>
+                     
 			        </div>
-			        <button id="submit" class="button2" type="button"
+			         <button id="submit" class="button2" type="button"
 			        onclick="document.getElementById('clicks1').style.display = 'result',
 			                 document.getElementById('clicks2').style.display = 'result2',
 			                 document.getElementById('button'  ).style.display = 'none',
@@ -85,11 +101,14 @@
 			                 document.getElementById('header').innerHTML = 'Thank you'"
 			                 >
 			        submit</button>
+
+			        <div class="clear"></div>
 			    </div>
 
 
                   <!-- section2 -->
                   <div class="big_container">
+                  	<div class="title" ><h1 > HOTELS </h1></div>
 			        <div class="container1">
 			            
 			            <div class="box" id="box1"> <img class="post-image" src="img/paragraf.jpg"  alt="bbar"></div>
@@ -97,9 +116,9 @@
 
 
 			            <button id="button" class="button" type="button" onClick="clickME1()">vote</button>
-			            <div class="result"><p> <a id="clicks1">0</a></p></div>
-			             <script type="text/javascript">  var clicks1 = 0;
-					       function clickME1() {
+			              <div class="result"><p> <a id="clicks1">0</a></p></div>
+			                <script type="text/javascript">  var clicks1 = 0;
+					        function clickME1() {
 					        clicks1 += 1;
 					        document.getElementById("clicks1").innerHTML = clicks1;
 					 }   </script>
@@ -128,6 +147,8 @@
 			                 document.getElementById('header').innerHTML = 'Thank you'"
 			                 >
 			        submit</button>
+
+			        <div class="clear"></div>
 			    </div>
 
 

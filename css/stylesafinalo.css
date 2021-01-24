@@ -36,6 +36,14 @@
                 float: left;
                 padding:0px 20px;
             }
+.title{/*padding-left:440px;*/
+       font-size: 25px; 
+       font-weight: 80;
+       padding-top: 10px;
+       padding-bottom: 15px;
+       text-align: center;
+       font-weight: 19px;}
+
 
 /*drop down*/
  .navigation1{width: 100px;
@@ -59,8 +67,25 @@
    .navigation1 ul li:hover {background:crimson;}
    .navigation1 ul ul{display: none;}
    .navigation1 ul li:hover > ul{display: block;}
+/*header2*/
+   
+   .header2 { width: 500px;
+              height: 100px;
+              /*border:2px solid;*/
+              margin: 0 auto;
+              margin-top: 50px;}
+
+
+   .top_title{width: 400px;
+              height: 80px;
+              margin-left:30px;}
+
+
+
+
 
    /*drop down*/
+
 
 .navigation1 a li{display: table-cell;
                   vertical-align: middle;
@@ -103,18 +128,28 @@
 
 
 /*sections*/
-.big_container{width: 1000px;
-              height: 500px;
+.big_container{width: 800px;
+              height: 440px;
+              /*margin-top: 70px;*/
+              /*margin-left: 140px*/;
+              margin: 0 auto;
               margin-top: 50px;
-              margin-left: 140px;}
+              /*border:2px solid;*/}
+
+.versus{width: 100px;
+        height: 200px;
+        display: inline-block;}
+
 
 
 .container1, .container2{
     display: inline-block;
-    background-color: #008057cc;
-
-    width: 400px;
-    height: 400px;}
+    /*background-color: #008057cc;*/
+   
+    width: 350px;
+    height: 350px;
+    border:2px solid;
+    border-radius: 25px;}
 .container2{float: right;}
     
 
@@ -127,40 +162,46 @@
 .button{width: 60px;
 	    margin:10px; 
         vertical-align: middle;
-        margin-left: 170px;
+        margin-left: 145px;
          }
 .button2{vertical-align: middle;
-          margin-left: 460px;} 
+          margin-left: 370px;
+         } 
 .result,.result2{width: 80px;
-        height:70px;
+        height:30px;
         background-color: white;
-        margin-left: 160px;
+        border:2px solid;
+        border-radius: 25px;
+        margin-left: 135px;
         margin-bottom: 30px;
         vertical-align: middle;
         display: inline-block;
-        padding-left: 25px;
-        padding-top: 15px;
+        text-align: center;
         font-size: 25px;}
        
 .box {
     display: block;
     width: 200px;
-    height: 200px;
+    height: 170px;
     margin: 50px;
-    margin-left: 100px;
+    margin-left: 70px;
+    border-radius: 25px;
+    /*margin-left: 100px;*/
 }
 .post-image {
-    display: block;
+    display:inline-block;
     width: 200px;
     height: 200px;
-    margin: 50px;
-    margin-left: 1px;
+    border-radius: 25px;
+    /*margin: 50px;*/
+    /*margin-left: 1px;*/
 }
 .text {
     text-align: center;
+    margin-bottom: 12px;
     color: white;
      font-size: 16px;
-     padding-bottom: 20px;
+     background-color: blue;
 
 }
 #header {
@@ -176,6 +217,54 @@
 .footer{width: 100%;
             top: 0;
             left:0;}
+/*pager-2*/
+.top_container{width: 1250px;
+               height: 210px;
+               margin-left:50px;
+               margin-top: 10px;
+               border:2px solid;
+              }
+
+.brand_cont{width: 180px;
+            height: 180px;
+            border:2px solid;
+            border-color: gold;
+            border-radius: 25px;
+            margin-top: 15px;
+            margin-left: 10px;
+            display: inline-block;}
+.brand_img{width: 160px;
+           height: 150px;
+           margin:0 auto;
+           margin-left: px;
+           border-radius: 25px;}
+
+.grade_cont{width: 50px;
+       height: 50px;
+       border:2px solid;
+       background-color: white;
+       margin-left: 60px;
+       }
+
+
+
+
+.grade{/*padding-left: 18px;*/
+       padding-top: 10px;
+       font-size: 20px;
+       text-align: center;
+
+       /*margin-left: 15px;*/}
+.test{width: 100px;
+      height: 100px;
+      border:2px solid;
+      /*margin:0 auto;*/
+      display: inline-block;
+      text-align: center;}
+
+
+
+
 
 
 
@@ -193,4 +282,4 @@
              height:50px;
              padding-left: 20px;
              padding-top: 25px;}
-            
+.clear{clear: both;}
